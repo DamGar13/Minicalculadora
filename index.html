@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minicalculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table id="calculadora">
+        <tr>
+            <td colspan="4">
+                <input type="text" value="0" name="resultado" id="resultado" readonly="true" class="caja_valor">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="exp" name="potencia" id="potencia" class="boton_largo funcion" >
+            <td>
+                <input type="button" value="/" name="dividir" id="dividir" class="boton funcion">
+            </td>
+            <td>
+                <input type="button" value="x" name="multiplicar" id="multiplicar" class="boton funcion">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="7" name="7" id="7" class="boton">
+            </td>
+            <td>
+                <input type="button" value="8" name="8" id="8" class="boton">
+            </td>
+            <td>
+                <input type="button" value="9" name="9" id="9" class="boton">
+            </td>
+            <td>
+                <input type="button" value="-" name="restar" id="restar" class="boton funcion">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="4" name="4" id="4" class="boton">
+            </td>
+            <td>
+                <input type="button" value="5" name="5" id="5" class="boton">
+            </td>
+            <td>
+                <input type="button" value="6" name="6" id="6" class="boton">
+            </td>
+            <td>
+                <input type="button" value="+" name="sumar" id="sumar" class="boton funcion">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="1" name="1" id="1" class="boton">
+            </td>
+            <td>
+                <input type="button" value="2" name="2" id="2" class="boton">
+            </td>
+            <td>
+                <input type="button" value="3" name="3" id="3" class="boton">
+            </td>
+            <td>
+                <input type="button" value="=" name="igual" id="igual" class="boton funcion">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="0" name="0" id="0" class="boton_largo">
+            </td>
+            <td>
+                <input type="button" value="." name="." id=".">
+            </td>
+            <td>
+                <input type="button" value="C" name="C" id="C"  class="boton funcion">
+            </td>
+        </tr>
+    </table>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
