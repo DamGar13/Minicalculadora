@@ -1,0 +1,40 @@
+#calculadora{
+    background-color: #bbbbbb;
+    border: 0;
+}
+
+#calculadora td{
+    padding: 4px;
+}
+
+.caja_valor{
+    background-color: #acff38;
+    color: #467702;
+    border: 1px solid #454545;
+    width: 130px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.boton{
+    width: 24px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.boton_largo{
+    width: 62px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.funcion{
+    color: #bb0000;
+    font-weight: 700;
+}
